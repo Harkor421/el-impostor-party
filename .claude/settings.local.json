@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx expo start:*)",
+      "Bash(npx expo install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx expo run:ios:*)",
+      "Bash(npx eas-cli:*)",
+      "Bash(timeout:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(eas:*)",
+      "Bash(dir:*)",
+      "Bash(powershell:*)",
+      "Bash(node scripts/generate-assets.js:*)",
+      "Bash(yarn install)",
+      "Bash(yarn add:*)",
+      "Bash(yarn remove:*)",
+      "Bash(git reset:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
